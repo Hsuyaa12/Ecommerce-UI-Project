@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1 id="wrapper-header">Digital Store</h1>
+      </header>
+      <nav>
+        <div id="box">
+          <div class="category" id="items">
+            <p>Loading Categories...</p>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <button style="display: none" id="list-view-btn">List View</button>
+        <button style="display: none" id="grid-view-btn">Grid View</button>
+
+        <!-- table view -->
+        <table>
+          <thead class="table-dark" id="dark-table">
+            <tr class="table-hd-high">
+              <th scope="col">Item</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody class="table-bd">
+            <tr>
+              <td id="cat-selec" colspan="3">
+                Please choose from the above categories...
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- grid view  -->
+        <div id="gridView"></div>
+        <!-- item view  -->
+        <div id="itemView"></div>
+      </main>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="close()">&times;</span>
+          <div id="image-container" class="flex-container"></div>
+          <div></div>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
