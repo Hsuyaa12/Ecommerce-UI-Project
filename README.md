@@ -45,9 +45,9 @@ The **Ecommerce-UI-Project** is a sleek and interactive **front-end web applicat
 🚀 Integrate a **real payment gateway** for actual transactions.  
 
 ## 👤 Author
-✍️ **Ayush Bhandari** 
-📧 Contact: [bhandariaayush111@gmail.com]
-🔗 GitHub: [Hsuyaa12]
+✍️ **Ayush Bhandari**  
+📧 Contact: [bhandariaayush111@gmail.com]  
+🔗 GitHub: [Hsuyaa12]  
 
 ## 📜 License
 📄 This project is licensed under the **MIT License**.
