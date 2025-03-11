@@ -37,7 +37,7 @@ The **Ecommerce-UI-Project** is a sleek and interactive **front-end web applicat
 ```
 
 ## ▶️ Live Demo
-(Coming Soon..)
+(https://ecommerce-app-prototype.netlify.app)
 
 ## 💡 Future Enhancements
 🚀 Add user authentication for personalized experience.  
